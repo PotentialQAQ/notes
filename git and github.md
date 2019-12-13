@@ -3,19 +3,18 @@
 - 资源管理器内单击鼠标右键选择 `Git Bash Here`
 
 - 输入`git --version` 检查是否安装成功
-
-  # 分区简介
+# 分区简介
 
 | 工作区 Working Directory  | 暂存区                 | Git仓库 Git Repasitory |
 | ------------------------- | ---------------------- | ---------------------- |
 | 对文件进行添加 改动的动作 | 临时存放已经修改的文件 | 最终确定文件           |
 
-#Git使用前的配置
+# Git使用前的配置
 
 #### 配置用户姓名和邮箱
 
-######配置姓名 `$ git config --global user.name xxxx`
-######配置邮箱 `$ git config --global user.email xxxx@xxxx.com`
+###### 配置姓名 `$ git config --global user.name xxxx`
+###### 配置邮箱 `$ git config --global user.email xxxx@xxxx.com`
 ###### 查看配置是否成功 `$ git config --list`
 
 ###### `git init` 初始化git仓库  默认为隐藏文件夹 做一次就好
@@ -36,7 +35,7 @@
 
 ###### 查看版本提交记录 `git log`
 
-######建议用这个`git log --pretty=oneline `
+###### 建议用这个`git log --pretty=oneline `
 
 #### 版本回退
 
@@ -99,7 +98,7 @@ git中可以不提交更改，只提取分支上所有改动并储存，让开�
 
 - 第一件事git pull  最后一件事 git push
 
-###分支管理
+### 分支管理
 
 + 查看分支 git branch
 + 创建分支 git branch 分支名
